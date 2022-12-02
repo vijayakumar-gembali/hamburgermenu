@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-sm {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .home-sm {
+    display: none;
+  }
+}
+.home-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .home-lg {
+    display: flex;
+  }
+}
